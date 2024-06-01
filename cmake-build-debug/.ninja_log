@@ -1,0 +1,13 @@
+# ninja log v6
+40	1973	7389628258375247	CMakeFiles/untitled.dir/main.cpp.obj	411129f3fd7506f2
+1975	2350	7389628277720891	untitled.exe	6997f104835957e2
+74	1258	7389636331784482	CMakeFiles/untitled.dir/Entity.cpp.obj	530470145ecab37
+104	1288	7389636332088660	CMakeFiles/untitled.dir/Part.cpp.obj	b4a9fd1ac519636c
+122	1486	7389636332268672	CMakeFiles/untitled.dir/Portfolio.cpp.obj	c8a8947670e003fa
+58	1568	7389636331624546	CMakeFiles/untitled.dir/Currency.cpp.obj	3047f05ca23e2b68
+35	1763	7389636331394512	CMakeFiles/untitled.dir/main.cpp.obj	411129f3fd7506f2
+88	1926	7389636331914576	CMakeFiles/untitled.dir/Facility.cpp.obj	a9428e65a6049d7d
+1260	2531	7389636343650577	CMakeFiles/untitled.dir/Deal.cpp.obj	9fcb50e55074f424
+2531	3875	7389636356352807	untitled.exe	a9d098651dd4f077
+36	1138	7389636511312405	CMakeFiles/untitled.dir/main.cpp.obj	411129f3fd7506f2
+1140	1485	7389636522343246	untitled.exe	a9d098651dd4f077

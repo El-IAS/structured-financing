@@ -9,6 +9,9 @@ Deal::Deal(const std::string& contractNumber, const Lender& agent, const std::ve
       amount(amount), startDate(startDate), endDate(endDate), status(status) {}
 
 void Deal::addFacility(const Facility& facility) {
+    if (status == "All money needed gathered" || status == "Finished and paid") {
+    return;
+    }
     facilities.push_back(facility);
     double interest = facility.calculateInterest();
     double amountInEUR = converter.convertToEUR(facility.getCurrency(), facility.getAmount());
@@ -27,6 +30,9 @@ void Deal::addFacility(const Facility& facility) {
 }
 
 void Deal::addPart(const Part& part) {
+    if (status == "Finished and paid") {
+    return;
+    }
     portfolio.addPart(part);
     std::cout << "Added part with amount " << part.getAmount() << std::endl;
     updateStatus();
